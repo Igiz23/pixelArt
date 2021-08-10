@@ -1,0 +1,19 @@
+:root {
+    --contW: 840px;
+}
+#board {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border:  1rem solid gray;
+    width: var(--contW);
+    height: 515px;
+    background-color: beige;
+    margin: auto;
+}
+
+.pixel {
+    border: solid gray 1px;
+    width: 10px;
+    height: 10px;
+}
